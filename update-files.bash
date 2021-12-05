@@ -3,10 +3,10 @@
 break="--------------------"
 
 # remote details
-host=(ip_address ip_address ip_address ip_address ip_address ip_address ip_address ip_address ip_address ip_address ip_address ip_address)
-user=(remote_user remote_user remote_user remote_user remote_user remote_user remote_user remote_user remote_user remote_user remote_user remote_user)
-alias=(Alias Alias Alias Alias Alias Alias Alias Alias Alias Alias Alias Alias)
-remote_dir=(/path/to/file/ /path/to/file/ /path/to/file/ /path/to/file/ /path/to/file/ /path/to/file/ /path/to/file/  /path/to/file/ /path/to/file/ /path/to/file/ /path/to/file/ /path/to/file/)
+host=(ip_address) #can be array
+user=(remote_user) #can be array
+alias=(Alias) #can be array
+remote_dir=(/path/to/file/) #can be array
 
 # filename (can use regex for multiple files)
 ads_txt=ads.txt
